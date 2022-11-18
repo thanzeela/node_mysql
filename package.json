@@ -1,0 +1,19 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanzeela",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
